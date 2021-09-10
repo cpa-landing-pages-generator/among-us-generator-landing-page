@@ -1,0 +1,279 @@
+@font-face {
+  font-family: "IYFJ";
+  src: url("iyfj.woff2") format("woff2"),
+      url("iyfj.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+@font-face {
+  font-family: "icomoon";
+  src:  url("icomoon.eot?n4esyz");
+  src:  url("icomoon.eot?n4esyz#iefix") format("embedded-opentype"),
+    url("icomoon.ttf?n4esyz") format("truetype"),
+    url("icomoon.woff?n4esyz") format("woff"),
+    url("icomoon.svg?n4esyz#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: "icomoon" !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  font-size: 3.5rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-nintendoswitch:before {
+  content: "\e902";
+  /*color: #e60012;*/
+}
+.icon-xbox:before {
+  content: "\e901";
+  /*color: #107c10;*/
+}
+.icon-playstation:before {
+  content: "\e900";
+  /*color: #003791;*/
+}
+.icon-display:before {
+  content: "\e956";
+}
+.icon-appleinc:before {
+  content: "\eabe";
+}
+.icon-android:before {
+  content: "\eac0";
+}
+
+.PL {
+  cursor: pointer;
+  opacity: 0.75;
+}
+
+.PL img {
+  width: 67.5%;
+}
+
+.PL {
+  background-color: rgba(0,0,0,0.125) !important;
+  color: white !important;
+  border: 2px solid white !important;
+  text-align: center !important;
+  text-align-last: center !important;
+  transition-duration: 1s;
+  border-radius: 0.5rem !important;
+}
+
+body {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-direction: column !important;
+  min-height: 100vh;
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+
+.TYPED {
+  font-family: "Lato", sans-serif;
+  font-weight: 300 !important;
+  width: 75% !important;
+}
+
+video, #tsparticles, #particles-js {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.BBG {
+  background-color: rgba(0,0,0,0.75) !important;
+}
+
+.DMDM {
+  width: 75% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.xD, .Dx {
+  background-color: #e90000 !important;
+  font-family: "IYFJ" !important;
+  font-size: 3.25rem;
+  font-weight: 600;
+  letter-spacing: 0.125rem;
+  border-radius: 0.5rem;
+  margin-top: 0.5rem;
+  width: 50% !important;
+}
+
+RED {
+  color: #e90000 !important;
+  font-weight: 700 !important;
+}
+
+svg {
+  width: 60% !important;
+}
+
+.VERIFY {
+  display: none;
+}
+
+.S2, .S3 {
+  display: none !important;
+}
+
+.IYFJ {
+  font-family: "IYFJ" !important;
+  /*color: #e90000 !important;*/
+}
+
+h1.IYFJ {
+  font-size: 3.5rem !important;
+}
+
+.form-control-lg {
+  letter-spacing: 0.05rem !important;
+  font-family: "IYFJ" !important;
+  text-align: center;
+  background-color: rgba(0,0,0,0.5) !important;
+  font-size: 2.75rem !important;
+  color: white !important;
+  border: 2px solid white !important;
+  border-radius: 0.5rem !important;
+  width: 100%;
+}
+
+.LOGO {
+  width: 50% !important;
+}
+
+h1 {
+  font-family: "IYFJ";
+}
+
+h2, h3, h4 {
+  font-weight: 300 !important;
+}
+
+h3 strong, h4 strong {
+  font-weight: 400 !important;
+}
+
+.BOSS {
+  color: #e90000;
+  font-size: 6rem !important;
+}
+
+p {
+  margin-bottom: 0.5rem !important;
+}
+
+.SKRT {
+  border: 2px solid black;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: rgba(255,255,255,0.15);
+  width: 95% !important;
+}
+
+.card-header {
+  padding: 0 !important;
+}
+
+.btn-link {
+  font-family: "IYFJ" !important;
+  color: #e90000 !important;
+  font-size: 3.75rem !important;
+  /*font-weight: 700 !important;*/
+  text-decoration: none !important;
+}
+
+.card {
+  border: 1px solid white !important;
+  background-color: rgba(0,0,0,0.125) !important;
+  border-radius: 0.5rem !important;
+  color: white !important;
+}
+
+@media (max-width: 575.98px) {
+
+  .TYPED {
+    width: 90% !important;
+    font-size: 2rem !important;
+  }
+
+  RED {
+    font-weight: 400 !important;
+  }
+
+  svg {
+    width: 90% !important;
+  }
+
+  .DMDM.form-control-lg {
+    width: 100% !important;
+  }
+
+  .form-control-lg {
+    font-size: 2.5rem !important;
+  }
+
+  h1.IYFJ {
+    font-size: 3rem !important;
+  }
+
+  .DMDM {
+    
+    width: auto !important;
+  }
+
+  .ZZZ {
+    font-size: 1.25rem !important;
+  }
+
+  .btn-link {
+    font-size: 2.75rem !important;
+  }
+
+  .xD {
+    width: 75% !important;
+    font-size: 2.5rem !important;
+  }
+
+  .Dx {
+    width: 100% !important;
+    font-size: 2.5rem !important;
+  }
+
+  .LOGO {
+    width: 75% !important;
+  }
+  
+  .BOSS {
+    font-size: 4rem !important;
+  }
+
+  h2 {
+    font-size: 1.75rem !important;
+  }
+  
+  h3 {
+    font-size: 1.5rem !important;
+  }
+
+}
